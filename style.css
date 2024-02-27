@@ -16,10 +16,15 @@ header {
     text-align: center; /* Center text horizontally */
 }
 
-/* Blog post image styles */
+/* Blog post image styles
 .blog-post img {
-    max-width: 100%; /* Ensures images don't exceed their container's width */
-    height: auto; /* Maintains aspect ratio */
+    max-width: 25%; /* Make the image 25% smaller */
+/* } */ */
+
+/* Blog post image styles */
+
+.blog-img {
+    width: 50px;
 }
 
 /* Blog post paragraph styles */
@@ -29,6 +34,7 @@ header {
     font-size: 18px; /* Set font size to 18 pixels */
     line-height: 2; /* Set line height to double spacing */
 }
+
 
 /* Additional CSS to display images side by side */
 .blog-post a {
@@ -105,7 +111,7 @@ footer {
 
     /* Adjust width and margins for images in smaller screens */
     .blog-post a {
-        width: 90%; /* Set width to 90% for better fit on smaller screens */
+        width: 50%; /* Set width to 90% for better fit on smaller screens */
         margin: 0 auto 20px; /* Center horizontally with bottom margin */
     }
 
