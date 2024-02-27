@@ -1,6 +1,7 @@
 /* Reset default styles */
 body {
     font-family: Arial, sans-serif;
+    color: #ff3d84;
     margin: 0;
     padding: 0;
     background-image: url('https://media.tenor.com/XaawAzlwjhkAAAAj/heart-hart.gif'); /* Background image URL */
@@ -48,10 +49,10 @@ main {
 /* Footer styles */
 footer {
     background-color: transparent; /* Remove background color */
-    color: #fff;
+    color: #ff1818;
     text-align: center;
-    padding: 10px;
-    position: fixed;
+    padding: 20px;
+    /* position: fixed; */
     bottom: 0;
     width: 100%;
 }
