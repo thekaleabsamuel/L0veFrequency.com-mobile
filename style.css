@@ -77,3 +77,41 @@ footer {
     font-size: 18px; /* Set font size to 18 pixels */
     line-height: 2; /* Set line height to double spacing */
 }
+
+/* For screens smaller than 768px width */
+@media only screen and (max-width: 768px) {
+    /* Center images and audio player */
+    .blog-post img,
+    audio {
+        margin: 0 auto; /* Center horizontally */
+        display: block; /* Ensure they take full width */
+    }
+
+    /* Adjust width and margins for images in smaller screens */
+    .blog-post a {
+        width: 90%; /* Set width to 90% for better fit on smaller screens */
+        margin: 0 auto 20px; /* Center horizontally with bottom margin */
+    }
+}
+
+/* For screens smaller than 768px width */
+@media only screen and (max-width: 768px) {
+    /* Center images and audio player */
+    .blog-post img,
+    audio {
+        margin: 0 auto; /* Center horizontally */
+        display: block; /* Ensure they take full width */
+    }
+
+    /* Adjust width and margins for images in smaller screens */
+    .blog-post a {
+        width: 90%; /* Set width to 90% for better fit on smaller screens */
+        margin: 0 auto 20px; /* Center horizontally with bottom margin */
+    }
+
+    /* Make the image source 50% smaller */
+    .blog-post a img {
+        width: 50%; /* Reduce image width to 50% */
+    }
+}
+
